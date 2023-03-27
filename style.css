@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+ display:flex;
+ align-items: center;
+ list-style-type: none;
+ height: 100px;
+ background-color: black;
+ color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width:94px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:large ;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 13px auto;
+    border-radius: 12px;
+    padding: 34px;
+background-image: url('Background.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+
+
+}
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+#processbar{
+    width: 50vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 75px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 63%;
+    border-radius: 30px;
+    color: black;
+    padding: 8px;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.songItem img{
+border-radius: 40px;
+    width: 15%;
+    margin: 0 23px;
+}
+.songinfo{
+    position: absolute;
+    left: 25vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.songinfo img{
+    margin-top: 10px;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
